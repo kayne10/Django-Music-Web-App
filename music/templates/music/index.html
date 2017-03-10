@@ -14,7 +14,7 @@
         {% if albums %}
             {% for album in albums %}
                 <div class="col-sm-4 col-lg-2">
-                    <div class="thumbnail">
+                    <div class="thumbnail" style="background: rgba(0,0,0,0.3); color: white;font-family: 'Open Sans',sans-serif;">
                         <a href="{% url 'music:detail' album.id %}">
                             <img src="{{ album.album_logo.url }}" class="img-responsive">
                         </a>
@@ -63,7 +63,7 @@
                 <h3>Songs</h3>
             </div>
             <div class="col-sm-12">
-                <div class="panel panel-default">
+                <div class="panel panel-default" style="background: rgba(0,0,0,0.3); color: white;font-family: 'Open Sans',sans-serif;">
                     <div class="panel-body">
                         <table class="table">
                             <thead>

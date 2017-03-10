@@ -32,17 +32,84 @@ ul.errorlist {
     color: #FDB230;
 }
 
-/* Login Page */
-
-.login {
-	font-family: 'Open Sans',sans-serif;
+.thumbnail.caption h2 {
+	color: white;
 }
 
+/* Login Page */
+
+
+
 .form-group > input {
-	background: rgba(0,0,0,0);
+	background: rgba(0,0,0,0.5);
   border-radius: 5px;
   border: 1px solid white;
   padding: 0 1em;
   font-size: 1em;
   height: 2.5em;
+	color: white;
+}
+
+#id_username {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+  border: 1px solid white;
+  padding: 0 1em;
+  font-size: 1em;
+  height: 2.5em;
+	color: white;
+}
+#id_email {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+  border: 1px solid white;
+  padding: 0 1em;
+  font-size: 1em;
+  height: 2.5em;
+	color: white;
+}
+#id_password {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+  border: 1px solid white;
+  padding: 0 1em;
+  font-size: 1em;
+  height: 2.5em;
+	color: white;
+}
+#id_artist {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+  border: 1px solid white;
+  padding: 0 1em;
+  font-size: 1em;
+  height: 2.5em;
+	color: white;
+}
+#id_album_title {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+  border: 1px solid white;
+  padding: 0 1em;
+  font-size: 1em;
+  height: 2.5em;
+	color: white;
+}
+#id_genre {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+  border: 1px solid white;
+  padding: 0 1em;
+  font-size: 1em;
+  height: 2.5em;
+	color: white;
+}
+#id_song_title {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+  border: 1px solid white;
+  padding: 0 1em;
+  font-size: 1em;
+  height: 2.5em;
+	color: white;
 }
